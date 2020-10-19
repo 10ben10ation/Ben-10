@@ -1,0 +1,6 @@
+Print ("wanna transform?")
+choice = input()
+If choice == "yes":
+Print ("it's hero time)
+Else:
+Print("Game over')
