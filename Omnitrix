@@ -1,6 +1,9 @@
-Print ("wanna transform?")
-choice = input()
-If choice == "yes":
-Print ("it's hero time)
-Else:
-Print("Game over')
+print("wanna transform?")
+choice = lower(str(input()))
+if choice == "yes":
+   Print ("it's hero time)
+else:
+   if choice == "no":
+      Print("Game over")
+   else:
+      print ("sorry! I can't recognise your input")
